@@ -17,8 +17,6 @@ for letra in nome:
     print(texto)
 
 # Questao 4 
-<<<<<<< HEAD
-=======
 cel = input("Digite o número de celular: ")
 
 if len(cel) == 8:
@@ -31,7 +29,6 @@ if len(cel) == 9:
         print("Número inválido.")
 else:
     print("Número inválido.")
->>>>>>> 14ca2425bac80f8155ffd9ec43abafe5f2bc8674
 
 # Questao 5
 letra = input("Digite uma frase: ")
