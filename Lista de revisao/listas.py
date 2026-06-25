@@ -23,3 +23,22 @@ for url in urls:
 
 print("URLs:", urls)
 print("Dominios:", dominios)
+
+#Questao 3 
+
+from random import randint
+
+lista = []
+
+for i in range(10):
+    lista.append(randint(-100, 100))
+
+print("Lista ordenada:", sorted(lista))
+print("Lista original:", lista)
+
+print("Índice do maior valor:", lista.index(max(lista)))
+print("Índice do menor valor:", lista.index(min(lista)))
+
+print("Soma dos valores:", sum(lista))
+print("Média dos valores:", sum(lista) / len(lista))
+
